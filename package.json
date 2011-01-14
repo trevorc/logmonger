@@ -1,0 +1,13 @@
+{ "name": "logmonger"
+, "description": "MongoDB logging server"
+, "version": "0.1.0"
+, "homepage": "https://github.com/trevorc/logmonger"
+, "author": "Trevor Caira <trevor@caira.com>"
+, "bin": { "logmongerd": "./bin/logmongerd.js"
+         , "logmonger": "./bin/logmonger.js" }
+, "directories": { "lib": "./lib/logmonger" }
+, "dependencies": { "connect": "*"
+                  , "mongodb": "*"
+                  , "jsonconfig": "*"
+                  }
+}
